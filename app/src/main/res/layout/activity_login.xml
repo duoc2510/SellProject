@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#FFF8E1"> <!-- Nền vàng kem nhẹ -->
+
+    <!-- Tiêu đề ứng dụng -->
+    <TextView
+        android:id="@+id/txtAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍲 Foodie Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_marginBottom="32dp"
+        />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/rounded_input"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Mật khẩu -->
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/rounded_input"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Nút Đăng nhập -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Đăng ký -->
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chưa có tài khoản? Đăng ký"
+        android:textColor="#E65100"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

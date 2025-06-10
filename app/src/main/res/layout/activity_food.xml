@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#FFF8E1">
+
+        <TextView
+            android:text="🍽️ Thêm món ăn mới"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="Tên món ăn"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:hint="Mô tả"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:hint="Giá tiền"
+            android:inputType="number"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAddFood"
+            android:text="Thêm món ăn"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF9800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Đăng xuất"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E65100"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
